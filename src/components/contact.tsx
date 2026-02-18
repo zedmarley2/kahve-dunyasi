@@ -1,3 +1,5 @@
+'use client';
+
 interface ContactProps {
   props: Record<string, unknown>;
   styles: Record<string, unknown>;

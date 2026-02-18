@@ -1,3 +1,5 @@
+'use client';
+
 import { MotionWrapper } from './motion-wrapper';
 import { Header } from './header';
 import { Hero } from './hero';

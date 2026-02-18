@@ -1,3 +1,5 @@
+'use client';
+
 import websiteData from '@/data/website.json';
 import { ComponentRenderer } from '@/components/component-renderer';
 
