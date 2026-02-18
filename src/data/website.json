@@ -1,0 +1,210 @@
+{
+  "name": "Kahve Dünyası",
+  "description": "İstanbul'un kalbinde, geleneksel Türk kahvesi deneyimi",
+  "subdomain": "kahve-dunyasi",
+  "pages": [
+    {
+      "name": "Ana Sayfa",
+      "slug": "ana-sayfa",
+      "isHomePage": true,
+      "components": [
+        {
+          "id": "f880ef17-d907-4c7f-b276-894f386d9100",
+          "type": "HEADER",
+          "name": "Header",
+          "props": {
+            "logo": "Kahve Dünyası",
+            "navItems": [
+              {
+                "href": "#",
+                "label": "Ana Sayfa"
+              },
+              {
+                "href": "#hakkimizda",
+                "label": "Hakkımızda"
+              },
+              {
+                "href": "#menu",
+                "label": "Menü"
+              },
+              {
+                "href": "#referanslar",
+                "label": "Referanslar"
+              },
+              {
+                "href": "#galeri",
+                "label": "Galeri"
+              },
+              {
+                "href": "#iletisim",
+                "label": "İletişim"
+              }
+            ]
+          },
+          "styles": {}
+        },
+        {
+          "id": "c144327b-a1d5-45f6-aa55-4b157252cd09",
+          "type": "HERO",
+          "name": "Hero",
+          "props": {
+            "title": "Geleneksel Türk Kahvesi'nin Eşsiz Tadı",
+            "ctaLink": "#menu",
+            "ctaText": "Menümüzü Keşfedin",
+            "subtitle": "1923'ten beri İstanbul'un kalbinde, nesilden nesile aktarılan geleneksel tariflerimizle kahve kültürünü yaşatıyoruz. Her fincan, bir hikâye anlatır."
+          },
+          "styles": {}
+        },
+        {
+          "id": "c3938260-ed01-4bf7-89f7-5be6d100b9b5",
+          "type": "SECTION",
+          "name": "Hakkımızda",
+          "props": {
+            "content": "Kahve Dünyası, 1923 yılında İstanbul'un tarihi Kadıköy semtinde küçük bir kahvehane olarak kuruldu. Yüz yılı aşkın süredir, Türk kahvesi geleneğini en saf haliyle yaşatıyoruz. Özenle seçilmiş kahve çekirdeklerimiz, geleneksel yöntemlerle kavrulur ve bakır cezvelerimizde özel tariflerimizle hazırlanır. Her bir fincanımız, Osmanlı'dan günümüze uzanan zengin kahve kültürümüzün bir yansımasıdır. Misafirlerimize sadece kahve değil, unutulmaz bir deneyim sunuyoruz.",
+            "heading": "Bir Fincan Kahvenin Hikâyesi"
+          },
+          "styles": {}
+        },
+        {
+          "id": "e8e21173-f56a-4cd5-ac7c-e4301b631a7e",
+          "type": "FEATURES",
+          "name": "Menü",
+          "props": {
+            "heading": "Özel Menümüz",
+            "features": [
+              {
+                "icon": "☕",
+                "title": "Türk Kahvesi",
+                "description": "Geleneksel yöntemle hazırlanan, köpüklü ve aromalı klasik Türk kahvesi. Sade, orta veya şekerli. ₺45"
+              },
+              {
+                "icon": "⚱️",
+                "title": "Dibek Kahvesi",
+                "description": "Taş dibekte dövülerek hazırlanan, damak çatlatan eşsiz lezzet. Kakuleli veya sade. ₺55"
+              },
+              {
+                "icon": "🌿",
+                "title": "Menengiç Kahvesi",
+                "description": "Güneydoğu Anadolu'nun geleneksel içeceği, sütlü ve köpüklü menengiç kahvesi. ₺50"
+              },
+              {
+                "icon": "👑",
+                "title": "Osmanlı Kahvesi",
+                "description": "Damla sakızı ve kakule ile zenginleştirilmiş, Osmanlı saraylarının eşsiz tarifi. ₺60"
+              },
+              {
+                "icon": "🥛",
+                "title": "Sahlep",
+                "description": "Kış aylarının vazgeçilmezi, tarçınlı ve sıcacık geleneksel sahlep. ₺40"
+              },
+              {
+                "icon": "🍯",
+                "title": "Baklava Tabağı",
+                "description": "Antep fıstıklı, cevizli ve kaymak dolgulu özel baklava seçkimiz. ₺85"
+              }
+            ]
+          },
+          "styles": {}
+        },
+        {
+          "id": "61501b0b-7d0f-49ea-aeeb-1fe2c8c25588",
+          "type": "TESTIMONIALS",
+          "name": "Referanslar",
+          "props": {
+            "heading": "Misafirlerimiz Ne Diyor?",
+            "testimonials": [
+              {
+                "quote": "İstanbul'da içtiğim en iyi Türk kahvesi! Köpüğü ve aroması mükemmel. Her geldiğimde kendimi evimde gibi hissediyorum.",
+                "author": "Ayşe Yılmaz"
+              },
+              {
+                "quote": "Dibek kahvesi başka hiçbir yerde bu kadar lezzetli değil. Atmosferi de ayrıca çok otantik ve huzurlu.",
+                "author": "Mehmet Kaya"
+              },
+              {
+                "quote": "Osmanlı kahvesi deneyimi unutulmazdı. Damla sakızının o eşsiz aroması hâlâ damağımda. Kesinlikle tekrar geleceğim!",
+                "author": "Zeynep Demir"
+              },
+              {
+                "quote": "Kahve Dünyası, İstanbul'un en iyi saklı hazinesi. Baklavası da kahvesi kadar mükemmel. Herkese tavsiye ederim!",
+                "author": "Ali Öztürk"
+              }
+            ]
+          },
+          "styles": {}
+        },
+        {
+          "id": "8b1f3150-9ed0-4af1-a3fa-2628706f30a7",
+          "type": "GALLERY",
+          "name": "Galeri",
+          "props": {
+            "images": [
+              {
+                "alt": "Türk kahvesi servis",
+                "src": "https://images.unsplash.com/photo-1514066558159-fc8c737ef259?w=800&h=600&fit=crop"
+              },
+              {
+                "alt": "Kahve çekirdekleri",
+                "src": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&h=600&fit=crop"
+              },
+              {
+                "alt": "Kahvehane iç mekan",
+                "src": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&h=600&fit=crop"
+              },
+              {
+                "alt": "Latte art",
+                "src": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=600&fit=crop"
+              },
+              {
+                "alt": "Kahve ve tatlı",
+                "src": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=600&fit=crop"
+              },
+              {
+                "alt": "Kahvehane atmosferi",
+                "src": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&h=600&fit=crop"
+              }
+            ]
+          },
+          "styles": {}
+        },
+        {
+          "id": "9bff1261-d823-4c91-b644-5fe1de9fb732",
+          "type": "CONTACT",
+          "name": "İletişim",
+          "props": {
+            "heading": "Bize Ulaşın",
+            "description": "Kadıköy, Moda Caddesi No: 42, İstanbul | Tel: +90 216 555 0142 | info@kahvedunyasi.com.tr"
+          },
+          "styles": {}
+        },
+        {
+          "id": "17548919-568b-4e9a-b3f2-e7e89e63ab92",
+          "type": "FOOTER",
+          "name": "Alt Bilgi",
+          "props": {
+            "links": [
+              {
+                "href": "#",
+                "label": "Gizlilik Politikası"
+              },
+              {
+                "href": "#",
+                "label": "Kullanım Koşulları"
+              },
+              {
+                "href": "#",
+                "label": "Instagram"
+              },
+              {
+                "href": "#",
+                "label": "Twitter"
+              }
+            ],
+            "copyright": "© 2024 Kahve Dünyası. Tüm hakları saklıdır."
+          },
+          "styles": {}
+        }
+      ]
+    }
+  ]
+}
